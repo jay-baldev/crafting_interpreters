@@ -47,7 +47,8 @@ hs_err_pid*
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
-.metals
+.metals/
+.bloop/
 
 # Local History for Visual Studio Code
 .history/

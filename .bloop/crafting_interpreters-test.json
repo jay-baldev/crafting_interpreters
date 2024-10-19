@@ -1,0 +1,167 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "crafting_interpreters-test",
+        "directory": "/home/baldev/workspace/crafting_interpreters",
+        "workspaceDir": "/home/baldev/workspace/crafting_interpreters",
+        "sources": [
+            "/home/baldev/workspace/crafting_interpreters/src/test/scala",
+            "/home/baldev/workspace/crafting_interpreters/src/test/scala-2.12",
+            "/home/baldev/workspace/crafting_interpreters/src/test/scala-2",
+            "/home/baldev/workspace/crafting_interpreters/src/test/java",
+            "/home/baldev/workspace/crafting_interpreters/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "crafting_interpreters"
+        ],
+        "classpath": [
+            "/home/baldev/workspace/crafting_interpreters/.bloop/crafting_interpreters/scala-2.12/classes",
+            "/home/baldev/.sbt/boot/scala-2.12.19/lib/scala-library.jar"
+        ],
+        "out": "/home/baldev/workspace/crafting_interpreters/.bloop/crafting_interpreters",
+        "classesDir": "/home/baldev/workspace/crafting_interpreters/.bloop/crafting_interpreters/scala-2.12/test-classes",
+        "resources": [
+            "/home/baldev/workspace/crafting_interpreters/src/test/resources",
+            "/home/baldev/workspace/crafting_interpreters/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.19",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/baldev/.sbt/boot/scala-2.12.19/lib/scala-library.jar",
+                "/home/baldev/.sbt/boot/scala-2.12.19/lib/scala-reflect.jar",
+                "/home/baldev/.sbt/boot/scala-2.12.19/lib/scala-compiler.jar",
+                "/home/baldev/.sbt/boot/scala-2.12.19/lib/scala-xml_2.12-2.2.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/home/baldev/.cache/coursier/arc/https/github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.25%252B9/OpenJDK11U-jdk_x64_linux_hotspot_11.0.25_9.tar.gz/jdk-11.0.25+9",
+                "options": [
+                    "-Duser.dir=/home/baldev/workspace/crafting_interpreters"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.19",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/baldev/.sbt/boot/scala-2.12.19/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/baldev/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.19/scala-library-2.12.19-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.19",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/baldev/.sbt/boot/scala-2.12.19/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/baldev/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.19/scala-library-2.12.19-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
